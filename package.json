@@ -1,0 +1,32 @@
+{
+  "name": "developer_world",
+  "version": "1.0.0",
+  "description": "Social network for developer to connect talk about tech.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingXwolf/developer_world.git"
+  },
+  "author": "Jaime",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codingXwolf/developer_world/issues"
+  },
+  "homepage": "https://github.com/codingXwolf/developer_world#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
